@@ -2,6 +2,16 @@
 using namespace std;
 
 /*----------------------------------------------------------------------------------
+#0. Basic Code Syntax of C++.
+----------------------------------------------------------------------------------*/
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     //code here
+//     return 0;
+// }
+
+/*----------------------------------------------------------------------------------
 #1. Write a program that takes an input of age and prints if you are adult or not.
 ----------------------------------------------------------------------------------*/
 
@@ -33,7 +43,7 @@ f. 80 to 100 - A
 // int main()
 // {
 //     int marks;
-//     cin >> maeks;
+//     cin >> marks;
 //     if (marks < 25)
 //     {
 //         cout << "F";
@@ -69,10 +79,101 @@ f. 80 to 100 - A
 #3. Write a program that takes an input of age and prints their eligibility for job.
 a. If age < 18,
    print-> not eligible for job
-b. If age >= 18,
+b. If age >= 18 and age<=54,
    print-> eligible for job
 c. If age >= 55 and age<=57,
-   print-> not eligible for job, but retirement soon
+   print-> eligible for job, but retirement soon
 d. If age > 57,
    print-> retirement time
 ----------------------------------------------------------------------------------*/
+
+// int main()
+// {
+//     int age;
+//     cin >> age;
+//     if (age < 18)
+//     {
+//         cout << "Sorry, You are not eligible for job!" << endl;
+//     }
+//     else if (age >= 18 && age <= 57)
+//     {
+//         cout << "Congrats, You are eligible for job!";
+//         if (age >= 55)
+//         {
+//             cout << ", but retirement soon!" << endl;
+//         }
+//     }
+//     else
+//     {
+//         cout << "Retirement Time!" << endl;
+//     }
+//     return 0;
+// }
+
+/*----------------------------------------------------------------------------------
+#4. Write a program that takes the day number and prints the corresponding day.
+for 1: print Monday,
+for 2: print Tuesday,
+and so on...
+for 7: print Sunday
+----------------------------------------------------------------------------------*/
+
+// int main()
+// {
+//     int dayCount;
+//     cin >> dayCount;
+//     switch (dayCount)
+//     {
+//     case 1:
+//         cout << "Monday";
+//         break;
+//     case 2:
+//         cout << "Tuesday";
+//         break;
+//     case 3:
+//         cout << "Wednesday";
+//         break;
+//     case 4:
+//         cout << "Thursday";
+//         break;
+//     case 5:
+//         cout << "Friday";
+//         break;
+//     case 6:
+//         cout << "Saturday";
+//         break;
+//     case 7:
+//         cout << "Sunday";
+//         break;
+//     default:
+//         cout << "Invalid day number!";
+//     }
+// }
+
+/*----------------------------------------------------------------------------------
+#5. Write a program that takes multiple inputs that should be stored in an array.
+----------------------------------------------------------------------------------*/
+
+// int main()
+// {
+//     int arr[5];
+
+//     // method 1:
+//     // cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
+//     // cout << arr[4];
+
+//     // method 2 - using for loop:
+//     // for (int i = 0; i < sizeof(arr) / sizeof(int); i++)
+//     // {
+//     //     cin >> arr[i];
+//     //     cout << "arr[" << i << "] is: " << arr[i] << endl;
+//     // }
+
+//     // method 3 - using for-each loop:
+//     // for (int i : arr)
+//     // {
+//     //     cin >> i;
+//     //     cout << i << endl;
+//     // }
+//     // return 0;
+// }
