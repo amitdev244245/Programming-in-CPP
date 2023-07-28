@@ -177,3 +177,43 @@ for 7: print Sunday
 //     // }
 //     // return 0;
 // }
+
+/*----------------------------------------------------------------------------------
+#6. Pattern Programs
+#6.1 Write a program on Rectangular Star Pattern
+
+Example 1:
+Input: N = 3
+Output:
+* * *
+* * *
+* * *
+
+Example 2:
+Input: N = 6
+Output:
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * *
+----------------------------------------------------------------------------------*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
+    return 0;
+}
