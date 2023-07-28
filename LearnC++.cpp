@@ -217,3 +217,40 @@ Output:
 //     }
 //     return 0;
 // }
+
+/*----------------------------------------------------------------------------------
+#6.2 Write a program on Right-Angled Triangle Pattern
+
+Input Format: N = 3
+Result:
+*
+* *
+* * *
+
+Input Format: N = 6
+Result:
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+----------------------------------------------------------------------------------*/
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     for (int i = 0; i < n; i++)
+//     {
+//         for (int j = 0; j <= i; j++)
+//         {
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
