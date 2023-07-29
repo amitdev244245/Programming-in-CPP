@@ -326,3 +326,40 @@ Result:
 //     }
 //     return 0;
 // }
+
+/*----------------------------------------------------------------------------------
+#6.5 Write a program on Inverted Right Pyramid
+
+Input Format: N = 3
+Result:
+* * *
+* *
+*
+
+Input Format: N = 6
+Result:
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+----------------------------------------------------------------------------------*/
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = n; j >= i; j--)
+//         {
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
