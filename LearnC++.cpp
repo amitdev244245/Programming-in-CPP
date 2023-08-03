@@ -798,3 +798,41 @@ A
 //     }
 //     return 0;
 // }
+
+/*----------------------------------------------------------------------------------
+#6.16 Write a program on Alpha-Ramp Pattern
+
+Input Format: N = 3
+Result:
+A
+B B
+C C C
+
+Input Format: N = 6
+Result:
+A
+B B
+C C C
+D D D D
+E E E E E
+F F F F F F
+----------------------------------------------------------------------------------*/
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     for (int i = 0; i < n; i++)
+//     {
+//         char print = 'A' + i;
+//         for (int j = 0; j <= i; j++)
+//         {
+//             cout << print << " ";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
