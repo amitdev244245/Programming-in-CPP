@@ -885,3 +885,41 @@ ABCDEFEDCBA
 //     }
 //     return 0;
 // }
+
+/*----------------------------------------------------------------------------------
+#6.18 Write a program on Alpha-Triangle Pattern
+
+Input Format: N = 3
+Result:
+C
+B C
+A B C
+
+Input Format: N = 6
+Result:
+F
+E F
+D E F
+C D E F
+B C D E F
+A B C D E F
+----------------------------------------------------------------------------------*/
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     for (int i = 0; i < n; i++)
+//     {
+//         char ch = 'A' + n - 1;
+//         for (char j = ch - i; j <= ch; j++)
+//         {
+//             cout << j << " ";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
