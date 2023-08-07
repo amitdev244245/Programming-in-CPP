@@ -994,3 +994,73 @@ Result:
 
 //   return 0;
 // }
+
+/*----------------------------------------------------------------------------------
+#6.20 Write a program on Symmetric-Butterfly Pattern
+
+Input Format: N = 3
+Result:
+*    *
+**  **
+******
+**  **
+*    *
+
+
+Input Format: N = 6
+Result:
+*          *
+**        **
+***      ***
+****    ****
+*****  *****
+************
+*****  *****
+****    ****
+***      ***
+**        **
+*          *
+----------------------------------------------------------------------------------*/
+
+// #include <iostream>
+// using namespace std;
+
+// void stars(int i, int n)
+// {
+//   for (int j = 1; j <= i; j++)
+//   {
+//     cout << "*";
+//   }
+// }
+
+// void spaces(int i, int n)
+// {
+//   for (int j = 1; j <= n - i; j++)
+//   {
+//     cout << "  ";
+//   }
+// }
+
+// int main()
+// {
+//   int n;
+//   cin >> n;
+
+//   for (int i = 1; i <= n; i++)
+//   {
+//     stars(i, n);
+//     spaces(i, n);
+//     stars(i, n);
+//     cout << endl;
+//   }
+
+//   for (int i = n - 1; i >= 1; i--)
+//   {
+//     stars(i, n);
+//     spaces(i, n);
+//     stars(i, n);
+//     cout << endl;
+//   }
+
+//   return 0;
+// }
