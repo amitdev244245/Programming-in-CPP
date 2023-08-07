@@ -923,3 +923,74 @@ A B C D E F
 //     }
 //     return 0;
 // }
+
+/*----------------------------------------------------------------------------------
+#6.19 Write a program on Symmetric-Void Pattern
+
+Input Format: N = 3
+Result:
+******
+**  **
+*    *
+*    *
+**  **
+******
+
+Input Format: N = 6
+Result:
+************
+*****  *****
+****    ****
+***      ***
+**        **
+*          *
+*          *
+**        **
+***      ***
+****    ****
+*****  *****
+************
+----------------------------------------------------------------------------------*/
+
+// #include <iostream>
+// using namespace std;
+
+// void stars(int i, int n)
+// {
+//   for (int j = 1; j <= i; j++)
+//   {
+//     cout << "*";
+//   }
+// }
+
+// void spaces(int i, int n)
+// {
+//   for (int j = 1; j <= n - i; j++)
+//   {
+//     cout << "  ";
+//   }
+// }
+
+// int main()
+// {
+//   int n;
+//   cin >> n;
+
+//   for (int i = n; i >= 1; i--)
+//   {
+//     stars(i, n);
+//     spaces(i, n);
+//     stars(i, n);
+//     cout << endl;
+//   }
+
+//   for (int i = 1; i <= n; i++)
+//   {
+//     stars(i, n);
+//     spaces(i, n);
+//     stars(i, n);
+//     cout << endl;
+//   }
+
+//   return 0;
+// }
